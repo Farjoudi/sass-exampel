@@ -1,9 +1,14 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+button {
+  all: unset;
 }
 body {
   font-family: "Atma", sans-serif;
+  height: 100vh;
   background: rgb(2, 21, 38);
   background: linear-gradient(
     90deg,
@@ -11,5 +16,69 @@ body {
     rgba(3, 52, 110, 1) 35%,
     rgba(110, 172, 218, 1) 100%
   );
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: white;
+}
+.conter {
+  height: 515px;
+  width: 476px;
+  background-color: #48CFCB;
+  border-radius: 20px;
+  display: flex;
+  box-shadow: 0 25px 121px rgba(0, 0, 0, 0.5);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.conter-title {
+  margin-top: 50px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  opacity: 0.9;
+  width: 200px;
+  text-align: center;
+}
+.conter-count {
+  font-size: 200px;
+  margin-top: 10px;
+}
+.conter-icone-reset {
+  cursor: pointer;
+}
+
+.conter-icone-reset-i {
+  font-size: 35px;
+  transition: all 0.4s;
+}
+.conter-icone-reset-i:hover {
+  color: black;
+}
+.conter-buttons {
+  background-color: #424242;
+  height: 116px;
+  width: 100%;
+  margin-top: auto;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  display: flex;
+  margin-top: 40px;
+}
+.conter-icon {
+  color: #229799;
+  font-size: 40px;
+}
+.conter-button {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.conter-button:hover {
+  background-color: #2A3663;
+  cursor: pointer;
+}
+.conter-button-increase {
+  border-left: 1px solid rgba(189, 254, 0, 0.15);
 }
