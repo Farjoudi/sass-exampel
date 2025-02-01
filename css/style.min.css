@@ -32,6 +32,17 @@ body {
   justify-content: center;
   align-items: center;
 }
+.conter-limit {
+    height: 515px;
+    width: 476px;
+    background-color: #ff3c00;
+    border-radius: 20px;
+    display: flex;
+    box-shadow: 0 25px 121px rgba(0, 0, 0, 0.5);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 .conter-title {
   margin-top: 50px;
   text-transform: uppercase;
