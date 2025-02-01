@@ -1,1 +1,15 @@
-body{background-color:red}/*# sourceMappingURL=style.min.css.map */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Atma", sans-serif;
+  background: rgb(2, 21, 38);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 21, 38, 1) 0%,
+    rgba(3, 52, 110, 1) 35%,
+    rgba(110, 172, 218, 1) 100%
+  );
+  color: white;
+}
